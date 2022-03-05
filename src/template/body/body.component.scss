@@ -1,0 +1,11 @@
+.content {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 30px;
+
+    &__tabs {
+        display: flex;
+        align-items: center;
+        margin: 36px 0 22px 0;
+    }
+}
