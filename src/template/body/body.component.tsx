@@ -1,19 +1,23 @@
 import React from "react";
 import { Search } from "../../components/search/search.component";
 import { Tab } from "../../components/tab/tab.component";
+import { TabInterface } from "../../interfaces/tab.interface";
 import './body.component.scss';
 
 export class Body extends React.Component {
 
-    tabs = [
+    tabs: TabInterface[] = [
         {
-            title: 'Past'
+            title: 'Past',
+            isActive: true
         },
         {
-            title: 'Today'
+            title: 'Today',
+            isActive: false
         },
         {
-            title: 'Upcoming'
+            title: 'Upcoming',
+            isActive: false
         }
     ];
 

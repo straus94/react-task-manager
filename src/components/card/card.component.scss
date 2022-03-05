@@ -1,0 +1,45 @@
+.card {
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 0 0 30px 0;
+
+    &__wrapper {
+        position: relative;
+    }
+
+    &__type {
+        border: 1px solid #000000;
+        border-radius: 5px;
+    }
+
+    &__title {
+        font-size: 18px;
+    }
+
+    &__date {
+
+    }
+
+    &__calendar {
+
+    }
+
+    &__time {
+
+    }
+
+    &__choose {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        background-color: #cccccc;
+        cursor: pointer;
+
+        &--active {
+            background-color: #000000;
+        }
+    }
+}
